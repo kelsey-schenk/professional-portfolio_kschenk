@@ -65,6 +65,10 @@ header nav ul li a {
     font-size: 18px;
     display: flex;
     flex-direction: row;
+    background-image: url('IMG_4676 3.JPG');
+    background-size: contain;
+    background-position: center;
+    background-repeat: none;
     /* float: left; */
 }
 
@@ -86,17 +90,74 @@ header nav ul li a {
     /* box-align: center; */
 /* } */
 .run-buddy {
-    background-image: url("./runbuddy_cap.png");
+    background-image: url('../assets/runbuddy_cap.jpg');
+    height: 500px;
 }
 
 .password-generator {
-    background-image: url(./password.jpg);
+    background-image: url('../assets/password.jpg');
+    height: 300px;
 }
 
 .robots {
-    background-image: url(./robot.jpg);
+    background-image: url('../assets/robot.jpg');
+    height: 300px;
 }
 
 .led {
-    background-image: url(./led.jpg);
+    background-image: url('../assets/led.jpg');
+    height: 300px;
+}
+
+.puzzle {
+    background-image: url('../assets/puzzle.jpg');
+    height: 300px;
+}
+
+.flex-item {
+    align-items: center;
+    text-decoration: none;
+    color: rgb(2, 69, 71);
+}
+
+.flex-item h3 {
+    color: rgb(138, 230, 230);
+}
+
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .wrapper {
+        width: 80%;
+    }
+
+    .contact {
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
 }
