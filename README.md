@@ -7,8 +7,8 @@ Showcase the projects built using languages learned
 * HTML
 * CSS
 
-##Website
+## Website
 https://kelsey-schenk.github.io/professional-portfolio_kschenk/
 
-##Contribution
+## Contribution
 Made with ♥️ By Kelsey Schenk
