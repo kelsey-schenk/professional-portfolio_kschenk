@@ -46,7 +46,6 @@ header nav ul li a {
 
 .hero {
     position: relative;
-    background-image: url('../assets/hero.JPG');
     background-size: cover;
     background-position: top;
     height: 50vh;
@@ -65,17 +64,11 @@ header nav ul li a {
     font-size: 18px;
     display: flex;
     flex-direction: row;
+    background-repeat: no-repeat;
     background-image: url('IMG_4676 3.JPG');
     background-size: contain;
     background-position: center;
-    background-repeat: none;
     /* float: left; */
-}
-
-.intro img {
-    width: 300px;
-    height: 350px;
-    float: left;
 }
 
 .work {
@@ -83,45 +76,18 @@ header nav ul li a {
     margin-bottom: 70px;
 }
 
-/* .run-buddy img { */
-    /* float: left; */
-    /* width: 450px; */
-    /* height: 300px; */
-    /* box-align: center; */
-/* } */
-.run-buddy {
-    background-image: url('../assets/runbuddy_cap.jpg');
-    height: 500px;
-}
-
-.password-generator {
-    background-image: url('../assets/password.jpg');
+.dnd-character-generator {
+    background-image: url('/assets/DND.png');
+    background-size: cover;
+    top: 0;
     height: 300px;
+    width: 100%;
+    flex: 1 1 auto;
 }
 
-.robots {
-    background-image: url('../assets/robot.jpg');
-    height: 300px;
-}
-
-.led {
-    background-image: url('../assets/led.jpg');
-    height: 300px;
-}
-
-.puzzle {
-    background-image: url('../assets/puzzle.jpg');
-    height: 300px;
-}
-
-.flex-item {
-    align-items: center;
-    text-decoration: none;
-    color: rgb(2, 69, 71);
-}
-
-.flex-item h3 {
-    color: rgb(138, 230, 230);
+.retro-rewind {
+    background-image: url('/assets/retrorewind.png');
+    background-size: cover;
 }
 
 @media screen and (max-width: 980px) {
