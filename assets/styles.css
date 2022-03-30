@@ -44,6 +44,13 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+main {
+    display:flex;
+   flex-direction: column;
+    max-width: 80%;
+    margin: auto;
+}
+
 .hero {
     position: relative;
     background-size: cover;
@@ -54,40 +61,36 @@ header nav ul li a {
     flex-wrap: wrap;
 }
 
-.wrapper {
-    max-width: 80%;
-    margin: auto;
-}
 
-.intro {
+#about-me{
     text-align: center;
     font-size: 18px;
     display: flex;
     flex-direction: row;
-    background-repeat: no-repeat;
-    background-image: url('IMG_4676 3.JPG');
-    background-size: contain;
-    background-position: center;
     /* float: left; */
 }
-
-.work {
-    margin-top: 150px;
-    margin-bottom: 70px;
+#my-photo {
+    width: 50%; 
+    height: 50%;
+}
+#my-work {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-photo{
+    max-width: 200px;
+    max-height: 150px;
 }
 
-.dnd-character-generator {
-    background-image: url('/assets/DND.png');
-    background-size: cover;
-    top: 0;
-    height: 300px;
-    width: 100%;
-    flex: 1 1 auto;
+.photo-text {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
 
-.retro-rewind {
-    background-image: url('/assets/retrorewind.png');
-    background-size: cover;
+.project {
+    position: relative;
 }
 
 @media screen and (max-width: 980px) {
